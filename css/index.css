@@ -1,0 +1,331 @@
+
+	/*showImg*/
+	.showImg{
+		position: relative;
+		width: 100%;
+		height: 88%;
+		overflow-x: hidden;
+	}
+	#box{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	#btns{
+		list-style: none;
+		position: absolute;
+		left: 50%;
+		bottom: 20px;
+	}
+	#btns li{
+		float:left;
+		width:10px;
+		height: 10px;
+		margin-right: 10px;
+		background-color: #eee;
+		border-radius: 50%;
+		border: 1px solid #fff;
+	}
+	.BoxOne{
+		position: absolute;
+		left:100%;
+		top:0px;
+		width: 100%;
+		height: 100%;
+	}
+	.BoxOne img{
+		width: 100%;
+		height: 100%;
+	}
+	.BoxOne:nth-child(1){
+		left:0px;
+		top:0px;
+	}
+	.BuyP{
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 140px;
+		height: 50px;
+		line-height: 48px;
+		border: 1px solid #fff;
+		text-align: center;
+		background: #fff;
+		display: block;
+		color: #000;
+		
+	}
+	.BuyP1{
+		top: 63%;
+		left: 24%;
+	}
+	.BuyP2{
+		top: 57%;
+		left: 10%;
+	}
+	.BuyP3{
+		left: 63.5%;
+		top: 65%;
+	}
+	.BuyP:hover{
+		background: #000000;
+		color: #fff;
+	}
+
+
+	/*Text_Box*/
+	.Text_Box{
+		width: 100%;
+	}
+	.Text_Box_Box{
+		margin:40px auto 50px ;
+		text-align: center;
+	}
+	.NewP{
+		font-size: 24px;
+	}
+	.HBox{
+		overflow: hidden;
+		text-align: center;
+		margin: 8px auto 37px;
+	}
+	.HBox h1{
+		display: inline-block;
+		font-size: 48px;
+		font-weight: bold;
+	}
+	.HBox h1:last-child{
+		padding-left: 20px;
+	}
+	.Text_P{
+		overflow: hidden;
+		text-align: center;
+	}
+	.Text_p{
+		display: inline-block;
+		min-width: 140px;
+		height: 50px;
+		border: 2px solid #000000;
+		line-height: 46px;
+		margin: 0 15px;
+	}
+	.Text_p:hover{
+		background: #000000;
+		color: #fff;
+	}
+
+
+
+	/*ShowBox*/
+	.ShowBox{
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+	.ShowImgBox{
+		width: 50%;
+		height: auto;
+		float: left;
+		position: relative;
+	}
+	.ShowImgBox1{
+		width: 100%;
+		height: auto;
+	}
+	.BoxImg{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	.HidImg{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #000000;
+		opacity: 0;
+	}
+	.BoxImg img{
+		width: 100%;
+		height: auto;
+	}
+	.HidImg img{
+		visibility: hidden;
+	}
+	.BoxImgP{
+		position: absolute;
+		width: 140px;
+		height: 40px;
+		line-height: 36px;
+		border: 1px solid #fff;
+		color: #fff;
+		top: 0;
+		left:0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		z-index: 10;
+		opacity: 0;
+	}
+	.ShowImgBox:hover .BoxImgP{
+		opacity: 1;
+	}
+	.HidImg:hover {
+		opacity: 0.3;
+	}
+	.BoxImgP:hover{
+		background: #fff;
+		color: #000000;
+	}
+	.BoxP{
+		text-align: center;
+	}
+	.BoxP:first-child{
+		font-weight: bold;
+		font-size: 28px;
+		padding: 18px 0 8px;
+	}
+	.BoxP:last-child{
+		font-size: 14px;
+		color: #4c4c4c;
+	}
+	
+
+	/*PicBox*/
+	.PicBox{
+		width: 100%;
+		height: auto;
+	}
+	.PicBox_1{
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.Pic_Box_1_1{
+		position: relative;
+	}
+	.Pic_Box_1_1 img{
+		width: 100%;
+		height: auto;
+	}
+	.BgPic img{
+		width: 100%;
+		height: auto;
+		visibility: hidden;
+	}
+	.BgPic{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #000000;
+		opacity: 0;
+	}
+	.BgPic:hover{
+		opacity: 0.3;
+	}
+	.Buygoods{
+		position: absolute;
+		bottom: 65px;
+		left: 43%;
+		border: 1px solid #fff;
+		min-width: 140px;
+		height: 40px;
+		line-height: 36px;
+		text-align: center;
+		opacity: 0;
+	}
+	.Buygoods a{
+		color: #fff;
+	}
+	.PicBox_1:hover .Buygoods{
+		opacity: 1;
+	}
+	.Buygoods:hover{
+		background: #fff;
+	}
+	.Buygoods:hover a{
+		color: #000000;
+	}
+	.RecoP{
+		text-align: center;
+		padding: 18px 0 8px;
+		font-weight: bold;
+		font-size: 28px;
+	}
+
+
+	/*bannerBox*/
+	.bannerBox{
+		width: 100%;
+	}
+	.bannerGoods{
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		text-align: center;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 0 50px;
+	}
+	.banner_sun{
+		width: 32.5%;
+		height: auto;
+	}
+	.banner_sun img{
+		width: 100%;
+		height: auto;
+	}
+	.bannerImg{
+		position: relative;
+	}
+	.slideBox{
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: #000;
+		opacity: 0;
+		width: 100%;
+	}
+	.slideBox img{
+		visibility: hidden;
+	}
+	.slideBox:hover{
+		opacity: 0.3;
+	}
+	.slideP{
+		position: absolute;
+		max-width: 140px;
+		height: 40px;
+		line-height: 38px;
+		border: 1px solid #fff;
+		color: #fff;
+		top: 0;
+		left:0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
+		text-align: center;
+		display: none;
+	}
+	.slideP a{
+		color: #fff;
+	}
+	.banner_sun:hover .slideP{
+		display: block;
+	}
+	.slideP:hover{
+		background: #fff;
+	}
+	.slideP:hover a{
+		color: #000000;
+	}
+	.bannerP1{
+		font-weight: bold;
+		font-size: 26px;
+		margin: 18px 0 8px;
+	}
+	.bannerP2{
+		font-size: 18px;
+		color: #4c4c4c;
+	}
+
